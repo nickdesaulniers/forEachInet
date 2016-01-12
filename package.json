@@ -1,0 +1,31 @@
+{
+  "name": "foreachinet",
+  "version": "1.0.0",
+  "description": "node module for iterating virtual network interfaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdesaulniers/forEachInet.git"
+  },
+  "keywords": [
+    "iterate",
+    "network",
+    "interfaces",
+    "virtual",
+    "multihome",
+    "inet",
+    "en0",
+    "ip",
+    "address",
+    "port"
+  ],
+  "author": "Nick Desaulniers",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/nickdesaulniers/forEachInet/issues"
+  },
+  "homepage": "https://github.com/nickdesaulniers/forEachInet#readme"
+}
