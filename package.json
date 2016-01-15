@@ -1,6 +1,6 @@
 {
   "name": "foreachinet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node module for iterating virtual network interfaces",
   "main": "index.js",
   "scripts": {
