@@ -2,12 +2,9 @@ var os = require('os');
 
 function forEachInet (cb) {
   var ifaces = os.networkInterfaces();
-  for (var iface in ifaces) {
-    for (var i = 0, len = ifaces[iface].length; i < len; ++i) {
-      var inet = ifaces[iface][i];
-      cb(inet);
-    }
-  }
+  Object.keys(ifaces).reduce(function (temp, key) {
+    return temp.concat(ifaces[key]);
+  }, []).forEach(cb);
 };
 
 module.exports = forEachInet;
